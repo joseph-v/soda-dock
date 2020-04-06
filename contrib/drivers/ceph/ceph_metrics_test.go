@@ -20,9 +20,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/opensds/opensds/pkg/utils/exec"
+	"github.com/opensds/soda-dock/pkg/utils/exec"
 
-	"github.com/opensds/opensds/pkg/model"
+	"github.com/opensds/soda-dock/pkg/model"
 )
 
 var pool_Label map[string]string = map[string]string{"cluster": "ceph", "pool": "rbd"}

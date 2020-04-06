@@ -17,7 +17,7 @@ package urls
 import (
 	"strings"
 
-	"github.com/opensds/opensds/pkg/utils/constants"
+	"github.com/opensds/soda-dock/pkg/utils/constants"
 )
 
 const (

@@ -21,14 +21,14 @@ package main
 
 import (
 	"flag"
-	"github.com/opensds/opensds/pkg/dock"
-	"github.com/opensds/opensds/pkg/model"
-	"github.com/opensds/opensds/pkg/utils/constants"
+	"github.com/opensds/soda-dock/pkg/dock"
+	"github.com/opensds/soda-dock/pkg/model"
+	"github.com/opensds/soda-dock/pkg/utils/constants"
 
-	"github.com/opensds/opensds/pkg/db"
-	. "github.com/opensds/opensds/pkg/utils/config"
-	"github.com/opensds/opensds/pkg/utils/daemon"
-	"github.com/opensds/opensds/pkg/utils/logs"
+	"github.com/opensds/soda-dock/pkg/db"
+	. "github.com/opensds/soda-dock/pkg/utils/config"
+	"github.com/opensds/soda-dock/pkg/utils/daemon"
+	"github.com/opensds/soda-dock/pkg/utils/logs"
 )
 
 func init() {

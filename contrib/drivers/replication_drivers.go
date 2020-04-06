@@ -24,14 +24,14 @@ package drivers
 import (
 	"reflect"
 
-	"github.com/opensds/opensds/contrib/drivers/drbd"
-	"github.com/opensds/opensds/contrib/drivers/huawei/oceanstor"
-	scms "github.com/opensds/opensds/contrib/drivers/scutech/cms"
-	driversConfig "github.com/opensds/opensds/contrib/drivers/utils/config"
-	"github.com/opensds/opensds/pkg/model"
-	pb "github.com/opensds/opensds/pkg/model/proto"
-	"github.com/opensds/opensds/pkg/utils/config"
-	replication_sample "github.com/opensds/opensds/testutils/driver"
+	"github.com/opensds/soda-dock/contrib/drivers/drbd"
+	"github.com/opensds/soda-dock/contrib/drivers/huawei/oceanstor"
+	scms "github.com/opensds/soda-dock/contrib/drivers/scutech/cms"
+	driversConfig "github.com/opensds/soda-dock/contrib/drivers/utils/config"
+	"github.com/opensds/soda-dock/pkg/model"
+	pb "github.com/opensds/soda-dock/pkg/model/proto"
+	"github.com/opensds/soda-dock/pkg/utils/config"
+	replication_sample "github.com/opensds/soda-dock/testutils/driver"
 )
 
 // ReplicationDriver is an interface for exposing some operations of different

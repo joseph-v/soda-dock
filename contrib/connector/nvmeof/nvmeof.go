@@ -15,7 +15,7 @@
 package nvmeof
 
 import (
-	"github.com/opensds/opensds/contrib/connector"
+	"github.com/opensds/soda-dock/contrib/connector"
 )
 
 type Nvmeof struct{}

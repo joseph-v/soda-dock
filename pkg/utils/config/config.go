@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/go-ini/ini"
-	"github.com/opensds/opensds/pkg/utils/constants"
+	"github.com/opensds/soda-dock/pkg/utils/constants"
 )
 
 const (
@@ -241,6 +241,7 @@ func parseSections(cfg *ini.File, t reflect.Type, v reflect.Value) error {
 }
 
 func initConf(confFile string, conf interface{}) {
+	log.Printf("[INFO] Read configuration file [%s]", confFile)
 	cfg, err := ini.Load(confFile)
 	if err != nil && confFile != "" {
 		log.Printf("[ERROR] Read configuration failed, use default value")

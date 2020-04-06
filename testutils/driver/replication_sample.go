@@ -23,9 +23,9 @@ package sample
 import (
 	//"errors"
 
-	"github.com/opensds/opensds/pkg/model"
-	pb "github.com/opensds/opensds/pkg/model/proto"
-	. "github.com/opensds/opensds/testutils/collection"
+	"github.com/opensds/soda-dock/pkg/model"
+	pb "github.com/opensds/soda-dock/pkg/model/proto"
+	. "github.com/opensds/soda-dock/testutils/collection"
 )
 
 // ReplicationDriver

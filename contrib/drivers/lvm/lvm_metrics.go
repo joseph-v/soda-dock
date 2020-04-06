@@ -20,7 +20,7 @@ import (
 	"time"
 
 	log "github.com/golang/glog"
-	"github.com/opensds/opensds/pkg/model"
+	"github.com/opensds/soda-dock/pkg/model"
 	"gopkg.in/yaml.v2"
 )
 

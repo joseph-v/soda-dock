@@ -18,11 +18,11 @@ import (
 	"reflect"
 	"testing"
 
-	c "github.com/opensds/opensds/pkg/context"
-	"github.com/opensds/opensds/pkg/model"
-	. "github.com/opensds/opensds/pkg/utils/config"
-	. "github.com/opensds/opensds/testutils/collection"
-	dbtest "github.com/opensds/opensds/testutils/db/testing"
+	c "github.com/opensds/soda-dock/pkg/context"
+	"github.com/opensds/soda-dock/pkg/model"
+	. "github.com/opensds/soda-dock/pkg/utils/config"
+	. "github.com/opensds/soda-dock/testutils/collection"
+	dbtest "github.com/opensds/soda-dock/testutils/db/testing"
 )
 
 const (

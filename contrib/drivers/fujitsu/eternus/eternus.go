@@ -21,12 +21,12 @@ import (
 	"strconv"
 
 	log "github.com/golang/glog"
-	"github.com/opensds/opensds/contrib/drivers/utils"
-	. "github.com/opensds/opensds/contrib/drivers/utils/config"
-	"github.com/opensds/opensds/pkg/model"
-	pb "github.com/opensds/opensds/pkg/model/proto"
+	"github.com/opensds/soda-dock/contrib/drivers/utils"
+	. "github.com/opensds/soda-dock/contrib/drivers/utils/config"
+	"github.com/opensds/soda-dock/pkg/model"
+	pb "github.com/opensds/soda-dock/pkg/model/proto"
 
-	"github.com/opensds/opensds/pkg/utils/config"
+	"github.com/opensds/soda-dock/pkg/utils/config"
 	uuid "github.com/satori/go.uuid"
 )
 

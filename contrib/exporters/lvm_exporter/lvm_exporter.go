@@ -21,7 +21,7 @@ import (
 	"sync"
 
 	log "github.com/golang/glog"
-	"github.com/opensds/opensds/contrib/drivers/lvm"
+	"github.com/opensds/soda-dock/contrib/drivers/lvm"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

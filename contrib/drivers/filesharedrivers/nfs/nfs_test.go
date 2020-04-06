@@ -19,12 +19,12 @@ import (
 	"reflect"
 	"testing"
 
-	//"github.com/opensds/opensds/contrib/drivers/filesharedrivers/nfs"
-	. "github.com/opensds/opensds/contrib/drivers/utils/config"
-	"github.com/opensds/opensds/pkg/model"
-	pb "github.com/opensds/opensds/pkg/model/proto"
-	"github.com/opensds/opensds/pkg/utils/config"
-	"github.com/opensds/opensds/pkg/utils/exec"
+	//"github.com/opensds/soda-dock/contrib/drivers/filesharedrivers/nfs"
+	. "github.com/opensds/soda-dock/contrib/drivers/utils/config"
+	"github.com/opensds/soda-dock/pkg/model"
+	pb "github.com/opensds/soda-dock/pkg/model/proto"
+	"github.com/opensds/soda-dock/pkg/utils/config"
+	"github.com/opensds/soda-dock/pkg/utils/exec"
 )
 
 var fp = map[string]PoolProperties{

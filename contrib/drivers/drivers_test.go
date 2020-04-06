@@ -18,10 +18,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/opensds/opensds/contrib/drivers/ceph"
-	"github.com/opensds/opensds/contrib/drivers/lvm"
-	"github.com/opensds/opensds/contrib/drivers/openstack/cinder"
-	sample "github.com/opensds/opensds/testutils/driver"
+	"github.com/opensds/soda-dock/contrib/drivers/ceph"
+	"github.com/opensds/soda-dock/contrib/drivers/lvm"
+	"github.com/opensds/soda-dock/contrib/drivers/openstack/cinder"
+	sample "github.com/opensds/soda-dock/testutils/driver"
 )
 
 func TestInit(t *testing.T) {

@@ -18,8 +18,8 @@ import (
 	"path/filepath"
 
 	"github.com/golang/glog"
-	"github.com/opensds/opensds/pkg/model"
-	pb "github.com/opensds/opensds/pkg/model/proto"
+	"github.com/opensds/soda-dock/pkg/model"
+	pb "github.com/opensds/soda-dock/pkg/model/proto"
 )
 
 // Replication driver

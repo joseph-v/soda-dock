@@ -17,7 +17,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/opensds/opensds/pkg/model"
+	"github.com/opensds/soda-dock/pkg/model"
 )
 
 // Supported metrics

@@ -15,7 +15,7 @@
 package utils
 
 import (
-	pb "github.com/opensds/opensds/pkg/model/proto"
+	pb "github.com/opensds/soda-dock/pkg/model/proto"
 )
 
 // GetInitiatorName returns initiator name by protocol

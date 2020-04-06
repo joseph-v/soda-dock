@@ -22,8 +22,8 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/opensds/opensds/pkg/utils"
-	"github.com/opensds/opensds/pkg/utils/exec"
+	"github.com/opensds/soda-dock/pkg/utils"
+	"github.com/opensds/soda-dock/pkg/utils/exec"
 )
 
 type Cli struct {

@@ -17,9 +17,9 @@ package db
 import (
 	"errors"
 
-	c "github.com/opensds/opensds/pkg/context"
-	"github.com/opensds/opensds/pkg/model"
-	. "github.com/opensds/opensds/testutils/collection"
+	c "github.com/opensds/soda-dock/pkg/context"
+	"github.com/opensds/soda-dock/pkg/model"
+	. "github.com/opensds/soda-dock/testutils/collection"
 )
 
 // FakeDbClient

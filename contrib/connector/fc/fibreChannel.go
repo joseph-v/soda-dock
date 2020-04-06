@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/mitchellh/mapstructure"
-	"github.com/opensds/opensds/contrib/connector"
+	"github.com/opensds/soda-dock/contrib/connector"
 )
 
 var (

@@ -21,12 +21,12 @@ import (
 	"time"
 
 	"github.com/coreos/etcd/pkg/transport"
-	"github.com/opensds/opensds/pkg/utils/config"
-	"github.com/opensds/opensds/pkg/utils/pwd"
+	"github.com/opensds/soda-dock/pkg/utils/config"
+	"github.com/opensds/soda-dock/pkg/utils/pwd"
 
 	"github.com/coreos/etcd/clientv3"
 	log "github.com/golang/glog"
-	"github.com/opensds/opensds/pkg/utils"
+	"github.com/opensds/soda-dock/pkg/utils"
 )
 
 var (

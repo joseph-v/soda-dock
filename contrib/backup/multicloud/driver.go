@@ -21,8 +21,8 @@ import (
 	"os"
 
 	"github.com/golang/glog"
-	"github.com/opensds/opensds/contrib/backup"
-	"github.com/opensds/opensds/pkg/utils"
+	"github.com/opensds/soda-dock/contrib/backup"
+	"github.com/opensds/soda-dock/pkg/utils"
 	"gopkg.in/yaml.v2"
 )
 

@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/opensds/opensds/pkg/utils/constants"
+	"github.com/opensds/soda-dock/pkg/utils/constants"
 
 	log "github.com/golang/glog"
 )

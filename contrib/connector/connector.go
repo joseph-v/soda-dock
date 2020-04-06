@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/opensds/opensds/contrib/drivers/utils/config"
+	"github.com/opensds/soda-dock/contrib/drivers/utils/config"
 )
 
 const (
