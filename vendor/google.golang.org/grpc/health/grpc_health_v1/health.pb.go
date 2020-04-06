@@ -166,7 +166,7 @@ var fileDescriptor_e265fd9d4e077217 = []byte{
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ context.Context
-var _ grpc.ClientConnInterface
+var _ *grpc.ClientConn
 
 // This is a compile-time assertion to ensure that this generated file
 // is compatible with the grpc package it is being compiled against.
@@ -198,10 +198,10 @@ type HealthClient interface {
 }
 
 type healthClient struct {
-	cc grpc.ClientConnInterface
+	cc *grpc.ClientConn
 }
 
-func NewHealthClient(cc grpc.ClientConnInterface) HealthClient {
+func NewHealthClient(cc *grpc.ClientConn) HealthClient {
 	return &healthClient{cc}
 }
 
