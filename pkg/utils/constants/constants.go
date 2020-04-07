@@ -24,7 +24,7 @@ const (
 
 	// OpensdsConfigPath indicates the absolute path of opensds global
 	// configuration file.
-	OpensdsConfigPath = "/etc/opensds/soda-apiserver.conf"
+	OpensdsConfigPath = "/etc/opensds/opensds.conf"
 
 	// OpensdsDockBindEndpoint indicates the bind endpoint which the opensds
 	// dock grpc server would listen to.
